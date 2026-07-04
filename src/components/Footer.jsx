@@ -16,29 +16,33 @@ export default function Footer() {
             className={`btn btn-outline-${textColor} btn-floating m-1`}
             href="#!"
             role="button"
+            aria-label="Facebook"
           >
-            <i className="bi bi-facebook"></i>
+            <i className="bi bi-facebook" aria-hidden="true"></i>
           </a>
           <a
             className={`btn btn-outline-${textColor} btn-floating m-1`}
             href="#!"
             role="button"
+            aria-label="Twitter"
           >
-            <i className="bi bi-twitter"></i>
+            <i className="bi bi-twitter" aria-hidden="true"></i>
           </a>
           <a
             className={`btn btn-outline-${textColor} btn-floating m-1`}
             href="#!"
             role="button"
+            aria-label="Google"
           >
-            <i className="bi bi-google"></i>
+            <i className="bi bi-google" aria-hidden="true"></i>
           </a>
           <a
             className={`btn btn-outline-${textColor} btn-floating m-1`}
             href="#!"
             role="button"
+            aria-label="Instagram"
           >
-            <i className="bi bi-instagram"></i>
+            <i className="bi bi-instagram" aria-hidden="true"></i>
           </a>
         </section>
       </div>

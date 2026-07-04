@@ -58,8 +58,11 @@ export default function Navbar() {
           <Link
             to="/watchlist"
             className={`btn btn-${theme} border position-relative ms-lg-1`}
+            aria-label={`Watchlist, ${watchList.length} ${
+              watchList.length === 1 ? "item" : "items"
+            }`}
           >
-            <i className="bi bi-heart-fill"></i>
+            <i className="bi bi-heart-fill" aria-hidden="true"></i>
             <span className="position-absolute top-0 start-100 badge rounded-pill bg-danger translate-middle">
               {watchList.length}
             </span>
