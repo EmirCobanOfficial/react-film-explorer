@@ -5,6 +5,10 @@
 **A modern movie discovery app built with React + Vite, powered by the TMDB API.**
 Search thousands of movies, dive into rich details, build your personal watchlist, and switch themes — all in a fast, responsive single-page app.
 
+### [![Live Demo](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE%20DEMO-Visit%20Site%20%E2%86%92-brightgreen?style=for-the-badge)](https://react-film-explorer.vercel.app)
+
+🌐 **Live:** [react-film-explorer.vercel.app](https://react-film-explorer.vercel.app)
+
 <!-- Badges -->
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
@@ -122,7 +126,7 @@ react-film-explorer/
 - [ ] Add genre & year filters
 - [ ] Infinite scroll as an alternative to pagination
 - [ ] Trailer playback via TMDB video endpoints
-- [ ] Deploy live demo (Vercel / Netlify) and link it here
+- [x] Deploy live demo (Vercel) — **[live here](https://react-film-explorer.vercel.app)** ✅
 - [ ] Add unit tests (Vitest + React Testing Library)
 
 ---
