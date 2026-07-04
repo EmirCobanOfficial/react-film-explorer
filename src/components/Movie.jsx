@@ -37,12 +37,20 @@ export default function Movie({ movieObj }) {
             </span>
           </div>
           {watchList.some((item) => item.id === movieObj.id) ? (
-            <button className="btn btn-danger position-absolute top-0 end-0 m-2" onClick={() => removeFromWatchList(movieObj)}>
-              <i className="bi bi-heart-fill"></i>
+            <button
+              className="btn btn-danger position-absolute top-0 end-0 m-2"
+              onClick={() => removeFromWatchList(movieObj)}
+              aria-label={`Remove ${movieObj.title} from watchlist`}
+            >
+              <i className="bi bi-heart-fill" aria-hidden="true"></i>
             </button>
           ) : (
-            <button className="btn btn-primary position-absolute top-0 end-0 m-2" onClick={() => addToWatchList(movieObj)}>
-              <i className="bi bi-heart"></i>
+            <button
+              className="btn btn-primary position-absolute top-0 end-0 m-2"
+              onClick={() => addToWatchList(movieObj)}
+              aria-label={`Add ${movieObj.title} to watchlist`}
+            >
+              <i className="bi bi-heart" aria-hidden="true"></i>
             </button>
           )}
         </div>

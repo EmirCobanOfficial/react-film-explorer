@@ -19,10 +19,11 @@ export default function WatchListMovie({ movieObj }) {
         <div className="card-body p-2 d-flex flex-column justify-content-between">
           <h5 className="card-title text-truncate">{movieObj.title}</h5>
           <button
-            className="btn btn-danger mt-2 align-self-start" 
+            className="btn btn-danger mt-2 align-self-start"
             onClick={() => removeFromWatchList(movieObj)}
+            aria-label={`Remove ${movieObj.title} from watchlist`}
           >
-            <i className="bi bi-dash-circle"></i>
+            <i className="bi bi-dash-circle" aria-hidden="true"></i>
           </button>
         </div>
       </div>

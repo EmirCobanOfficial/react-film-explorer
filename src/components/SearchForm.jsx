@@ -18,19 +18,21 @@ export default function SearchForm() {
   }
 
   return (
-    <form className="d-flex mb-2 mb-lg-0" onSubmit={handleSubmit}>
+    <form className="d-flex mb-2 mb-lg-0" onSubmit={handleSubmit} role="search">
       <input
         type="search"
         className="form-control me-1"
         placeholder="Search"
+        aria-label="Search movies"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
       <button
         className={`btn btn-outline-${theme === "dark" ? "light" : "dark"}`}
         type="submit"
+        aria-label="Search"
       >
-        <i className="bi bi-search"></i>
+        <i className="bi bi-search" aria-hidden="true"></i>
       </button>
     </form>
   );
