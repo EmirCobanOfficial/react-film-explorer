@@ -1,4 +1,4 @@
-import Logo from "../components/Logo";
+import Logo from "../components/logo";
 import { NavLink, Link } from "react-router";
 import SearchForm from "./SearchForm";
 import ThemeSelector from "./ThemeSelector";
