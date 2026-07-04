@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ErrorMessage from "../components/ErrorMessage";
 import Loading from "../components/loading";
 import MovieList from "../components/MovieList";
+import Pagination from "../components/pagination";
 import { useSearchParams } from "react-router";
 
 const apiUrl = "https://api.themoviedb.org/3";
