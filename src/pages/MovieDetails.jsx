@@ -7,7 +7,7 @@ import SimilarMovies from "./SimilarMovies";
 import { UserContext } from "../contexts/UserContext";
 
 const apiUrl = "https://api.themoviedb.org/3";
-const api_key = "b06c4279d23840a7ced8ecb94f0faff4";
+const api_key = import.meta.env.VITE_TMDB_API_KEY;
 const language = "en-US";
 
 const MovieDetails = () => {
