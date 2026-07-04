@@ -25,11 +25,18 @@ Search thousands of movies, dive into rich details, build your personal watchlis
 
 ## 📸 Screenshots
 
-> Replace these placeholders with real screenshots (drop them in a `docs/` folder and update the links below).
+> Captured from the [live production deployment](https://react-film-explorer.vercel.app).
 
-| Home / Discover | Movie Details | Watchlist |
-| :---: | :---: | :---: |
-| ![Home](https://placehold.co/600x360/1a1a2e/eeeeee?text=Home+%2F+Discover) | ![Details](https://placehold.co/600x360/16213e/eeeeee?text=Movie+Details) | ![Watchlist](https://placehold.co/600x360/0f3460/eeeeee?text=Watchlist) |
+### 🏠 Home — Discover popular movies
+![Home page](docs/screenshots/home.png)
+
+| 🔎 Search | 🎬 Movie Details |
+| :---: | :---: |
+| ![Search results](docs/screenshots/search.png) | ![Movie details](docs/screenshots/movie-details.png) |
+
+| ⭐ Watchlist | 🌙 Dark Mode |
+| :---: | :---: |
+| ![Watchlist](docs/screenshots/watchlist.png) | ![Dark mode](docs/screenshots/dark-mode.png) |
 
 ---
 
