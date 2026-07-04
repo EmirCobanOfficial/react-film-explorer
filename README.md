@@ -17,6 +17,7 @@ Search thousands of movies, dive into rich details, build your personal watchlis
 ![TMDB](https://img.shields.io/badge/TMDB-API-01B4E4?logo=themoviedatabase&logoColor=white)
 ![License: MIT](https://img.shields.io/github/license/EmirCobanOfficial/react-film-explorer?color=green)
 ![GitHub stars](https://img.shields.io/github/stars/EmirCobanOfficial/react-film-explorer?style=social)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel&logoColor=white)](https://react-film-explorer.vercel.app)
 
 </div>
 
