@@ -11,8 +11,8 @@ Search thousands of movies, dive into rich details, build your personal watchlis
 ![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)
 ![TMDB](https://img.shields.io/badge/TMDB-API-01B4E4?logo=themoviedatabase&logoColor=white)
-![License: MIT](https://img.shields.io/github/license/EmirCobanOfficial/API-Film-Website?color=green)
-![GitHub stars](https://img.shields.io/github/stars/EmirCobanOfficial/API-Film-Website?style=social)
+![License: MIT](https://img.shields.io/github/license/EmirCobanOfficial/react-film-explorer?color=green)
+![GitHub stars](https://img.shields.io/github/stars/EmirCobanOfficial/react-film-explorer?style=social)
 
 </div>
 
@@ -68,8 +68,8 @@ Search thousands of movies, dive into rich details, build your personal watchlis
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/EmirCobanOfficial/API-Film-Website.git
-cd API-Film-Website
+git clone https://github.com/EmirCobanOfficial/react-film-explorer.git
+cd react-film-explorer
 
 # 2. Install dependencies
 npm install
@@ -98,7 +98,7 @@ The app will be available at **http://localhost:5173**.
 ## 📁 Project Structure
 
 ```
-API-Film-Website/
+react-film-explorer/
 ├── public/              # Static assets
 ├── src/
 │   ├── components/      # Reusable UI (Navbar, Movie, WatchList, Pagination, …)
